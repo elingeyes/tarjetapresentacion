@@ -26,6 +26,7 @@ class MyApp extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
+              SizedBox(height: 16),
               Text(
                 'Yesmani Fernández Arambulo',
                 style:TextStyle(
@@ -33,7 +34,13 @@ class MyApp extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 )
               ),
-
+              Text(
+                'Desarrollador Flutter',
+                style: TextStyle(
+                  fontSize: 18,
+                  color: Colors.grey[600],
+                ),
+              ),
             ],
           ),
         ),
