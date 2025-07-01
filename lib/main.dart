@@ -49,6 +49,8 @@ class MyApp extends StatelessWidget {
                   color:Colors.blueGrey,
                 ),
               ),
+              SizedBox(height: 18),
+              ElevatedButton(onPressed: (){}, child: Text('Mostrar')),
             ],
           ),
         ),
