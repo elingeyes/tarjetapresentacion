@@ -41,6 +41,14 @@ class MyApp extends StatelessWidget {
                   color: Colors.grey[600],
                 ),
               ),
+              SizedBox(height: 18),
+              Text(
+                'yfernandeza@incos-santacruz.edu.bo',
+                style: TextStyle(
+                  fontSize: 16,
+                  color:Colors.blueGrey,
+                ),
+              ),
             ],
           ),
         ),
