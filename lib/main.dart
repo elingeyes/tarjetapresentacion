@@ -14,6 +14,14 @@ class MyApp extends StatelessWidget {
           title: Text('Mi Tarjeta de Presentación'),
         ),
         body: Center(
+          child:Card(
+            elevation: 8,
+            margin: EdgeInsets.all(16),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(12)
+            ),
+            child: Padding(
+                padding: EdgeInsets.all(24),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
@@ -50,8 +58,13 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 18),
-              ElevatedButton(onPressed: (){}, child: Text('Mostrar')),
+              ElevatedButton(onPressed: (){
+                },
+                  child: Text('Mostrar')
+              ),
             ],
+          ),
+          ),
           ),
         ),
       ),
